@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#quote-box {
+  width: 100%;
+  max-width: 600px;
+  height:80%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quote-text {
+  margin: 20px;
+  font-size: 26px;
+  text-align: center;
+  overflow: hidden;
+}
+.quote-author {
+  font-size: 24px;
+  text-align: right;
+  margin: 20px;
+  color:rgb(red, green, blue);
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#new-quote {
+  background-color: #16a085;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 40px;
+  font-size: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+}
+@media (max-width: 600px) and (max-height: 600px) {
+  #quote-box {
+    width: 100%;
+    height:100%;
+  }
+}
